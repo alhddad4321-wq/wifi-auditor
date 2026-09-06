@@ -1,5 +1,5 @@
 name: wifi_auditor
-description: فاحص الأجهزة المتصلة بالراوتر
+description: Scans devices connected to the router
 version: 1.0.0+1
 
 environment:
@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   network_info_plus: ^5.0.3
-  ping_discover_network_forked: ^2.0.3
+  ping_discover_network_forked: ^0.0.1
   permission_handler: ^11.3.1
 
 dev_dependencies:
