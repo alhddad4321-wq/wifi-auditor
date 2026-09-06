@@ -1,0 +1,14 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace "com.example.wifi_auditor"
+    compileSdkVersion 34
+    
+    defaultConfig {
+        applicationId "com.example.wifi_auditor"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
